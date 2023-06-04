@@ -27,7 +27,22 @@ pip freeze
 Criar Projeto no Django ( comando cria projeto na raiz ".")
 ```
 django-admin startproject project .
+python .\manage.py startapp contact
 ```
+
+Após criar o app, nao esquecer de ir em project/settings.py e adicionar o app.
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'contact', #app contact adicionado
+]
+```
+
 
 Inicia projeto Django
 ```
