@@ -43,9 +43,19 @@ INSTALLED_APPS = [
 ]
 ```
 
-
 Inicia projeto Django
 ```
 python manage.py runserver
 ```
 
+Comandos migrate 
+```
+python .\manage.py makemigratios
+python .\manage.py migrate
+```
+
+Criar e modificando a senha de um super usuario Django
+```
+python .\manage.py createsuperuser
+python .\manage.py changepassword USERNAME
+```
