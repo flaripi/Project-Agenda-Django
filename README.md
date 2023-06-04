@@ -1,4 +1,4 @@
-Obs: comandos para Windows Powershell
+-- Obs: comandos para Windows Powershell
 
 cria maquina virtual
 ```
